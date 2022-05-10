@@ -79,7 +79,7 @@ body {
     border-radius: 18px;
     overflow: hidden;
     text-align: center;
-    padding: 20px;
+    padding: 20px 100px;
 }
 
 .modal-wrap img {
@@ -97,7 +97,7 @@ body {
     padding: 40px 30px 0px;
 }
 
-.modal-origin {
+.modal-click-img {
     position: relative;
     display: inline-block;
     
@@ -106,7 +106,7 @@ body {
     line-height: 20px;
     
     color: #000;
-    margin: 10px 0 20px;
+    margin: 10px 20px 20px;
     cursor: pointer;
     transition: color 0.3s;
 }
@@ -115,14 +115,14 @@ body {
     color: #0084ff;
 }
 
-.modal-origin img {
-    width: 20px;
-    height: 20px;
-    transition: all 0.3s;
+.modal-git:hover {
+    color: #ff8400;
 }
 
-.modal-origin:hover img {
-    filter: opacity(0.5) drop-shadow(0 0 0 #0084ff);
+.modal-click-img  img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s;
 }
 
 .modal-desc {
@@ -135,7 +135,8 @@ body {
 }
 
 .modal-desc em {
-    color: #0084ff;
+    color: #206cb3;
+    font-weight: 600;
 }
 
 .modal-close {
